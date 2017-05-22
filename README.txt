@@ -23,7 +23,7 @@ Create_Idx                  #创建索引，需编译，10协程
 time
 Purge_Logs
 Purge_Logsv2.0
-Purge_Logs_Master_Batch
+Purge_Logs_Master_Batch		#清理binlog(主库每10个批量清理)
 
 #REMARK
 DO NOT MODIFY...
