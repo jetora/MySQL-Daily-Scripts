@@ -18,7 +18,6 @@ Purge_Logs                  #清理binlog(整套集群清理,输入集群中的�
 Shrink_Space                #收缩空间(需编译，否则需拷贝/usr/local/go
                              到目标库依赖包...10协程)
 ShutMySQL                   #关闭MySQL服务(顺序执行)
-rtop                        #通过 SSH 监控远程主机的交互式工具,ex:./rtop ip
 Create_Idx                  #创建索引，需编译，10协程
 time
 Purge_Logs
