@@ -23,6 +23,9 @@ time
 Purge_Logs
 Purge_Logsv2.0
 Purge_Logs_Master_Batch		#清理binlog(主库每10个批量清理)
+Set_sync_log				#设置双0
+Set_open_file				#设置open file
+getmode						#查询只读
 
 #REMARK
 DO NOT MODIFY...
